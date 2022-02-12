@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "poetry_test"
+version = "0.1.0"
+description = ""
+authors = ["owdowt"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.22.2"
+pandas = "^1.4.1"
+scikit-learn = "^1.0.2"
+matplotlib = "^3.5.1"
+seaborn = "^0.11.2"
+ipython = "^8.0.1"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
